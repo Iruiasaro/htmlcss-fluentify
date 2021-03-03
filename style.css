@@ -44,12 +44,13 @@ header ul li {
     font-size: 9px;
     padding-right: 10px;
     padding-left: 15px;
+    padding-bottom: 50px;
     display: inline-block;    
 }
 
 header ul li a {
     line-height: 50px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-right:5 px;
     text-decoration: none;
 }
@@ -76,4 +77,69 @@ button {
     border-radius: 5px;    
 }
 
+.hero {
+    background-image: url(img/background-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right; 
+    height: 400px;  
+}
 
+.col-2 {
+    width: 50%;
+}
+
+.wrap-h1 {
+    height: 100%;
+    position: relative;
+}
+
+.content-h1 {
+    position: absolute;
+    top: 30%;
+    transform: translate(0, -30%);
+}
+
+.hero .hero-content {
+    height: 100%;
+}
+
+.hero button.green-button {
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.wrap-h1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+
+.background-gray {
+    background-color: rgb(179, 179, 179);
+}
+
+.wrap-article {
+    text-align: center;
+    padding: 20px;
+}
+
+.wrap-article h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.wrap-article p {
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+}
+
+
+
+/* help button - fixed */
+#help-button {
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    }
